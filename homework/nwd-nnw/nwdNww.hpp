@@ -25,6 +25,3 @@ int NWW(int lhs, int rhs) {
     }
     return (temp / lhs);
 }
-
-
-
