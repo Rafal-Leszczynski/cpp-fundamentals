@@ -1,8 +1,14 @@
 #pragma once
 #include <vector>
 
-int addEven(const std::vector<int>& numbers) {
-    // TODO: Your implementation goes here
-    // Below return is only to make this function compile now
-    return -1;
+int addEven(const std::vector<int> &numbers) {
+  int answer = 0;
+  int test = 0;
+  for (int i = 0; i <= numbers.size(); i++) {
+    test = numbers[i];
+    if (test % 2 == 0) {
+      answer = (test + answer);
+    }
+  }
+  return answer;
 }
