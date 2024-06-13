@@ -2,6 +2,14 @@
 #include <vector>
 
 std::vector<int> generateSequence(int count, int step) {
-    // TODO: Implement me :)
-    return {};
+    std::vector<int> answer;
+    int meter = 0;
+    if (count >0) {
+        for (int i = 0; i < count; i++) {
+        meter = meter + step;
+        answer.push_back(meter);
+        }
+    std::cout << " " << std::endl;
+    }
+    return answer;
 }
