@@ -9,7 +9,6 @@ std::vector<int> generateSequence(int count, int step) {
         meter = meter + step;
         answer.push_back(meter);
         }
-    std::cout << " " << std::endl;
     }
     return answer;
 }
